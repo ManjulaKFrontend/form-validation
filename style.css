@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Basic&family=Imperial+Script&family=Inter&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@500&family=Noto+Sans+Tirhuta&family=Nunito:wght@600;700&family=Open+Sans:wght@400;500;600;700&family=Oswald:wght@600;700&family=PT+Sans+Narrow:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway&family=Roboto:wght@300;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+background-color:grey;
+font-family: "roboto";
+}
+#create-account-form{
+    width: 400px;
+    padding: 30px;
+    text-transform: capitalize;
+    background-color:teal;
+    border-radius: 5px;
+ color: white;
+    
+ margin-top:5vh;
+}
+.title{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+
+}
+.input-group{
+    margin: 20px 0;
+    position: relative;
+    
+
+}
+
+.input-group label{
+
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.input-group input{
+
+    display: block;
+    width: 100%;
+    padding: 10px;
+    
+    border-radius: 5px;
+    border: 1px solid white;
+    
+    
+    
+}
+.error input{
+    border: 3px solid red;
+}
+.success input{
+    border: 3px solid green;
+}
+.input-group i{
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    visibility: hidden;
+}
+.success i.fa-circle-check{
+    visibility: visible;
+    color: green;
+}
+.error i .fa-exclamation-circle{
+visibility:visible;
+    color: red;
+}
+.input-group p{
+    font-size: 15px;
+    color: red;
+    visibility: hidden;
+}
+.error p{
+    visibility: visible;
+}
+.btn{
+
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color:grey;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
+ #addressInput{
+    padding-bottom: 80px;
+}
